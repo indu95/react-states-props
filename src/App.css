@@ -31,3 +31,10 @@
     transform: rotate(360deg);
   }
 }
+.output_para {
+  background: #9ee7fc;
+  margin: 10px;
+  max-width: 50%;
+  min-height: 100px;
+  border: #d3dda4 solid;
+}

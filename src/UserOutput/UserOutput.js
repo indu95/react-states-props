@@ -1,10 +1,10 @@
 import React from "react";
 
-const userOutput = () => {
+const userOutput = props => {
   return (
-    <div>
-      <p>para1</p>
-      <p>para2</p>
+    <div className="output_para">
+      <p>User Name is</p>
+      <p>{props.userName}</p>
     </div>
   );
 };
