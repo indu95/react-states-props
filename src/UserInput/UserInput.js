@@ -2,7 +2,7 @@ import React from "react";
 
 const userInput = props => {
   const style = {
-    "text-align": "left"
+    textAlign: "left"
   };
   return (
     <div style={{ width: "60%", margin: "30px" }}>
